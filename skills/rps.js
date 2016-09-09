@@ -1,3 +1,4 @@
+module.exports = function(skill, info, bot, message) {
 const { hears, storage: { channels } } = controller;
 
 function privateConvo(bot, message) {
@@ -121,3 +122,5 @@ hears(['accept'], 'ambient', (bot, message) => {
     }
   });
 });
+
+};
