@@ -17,13 +17,8 @@ module.exports = {
     'be a good bot and parrot benf fodjsi bdfsjdhf bazz back to me',
     'copy cat behf sdkjhfg peiurf fdlkgj kwjhe foufg'
   ],
-  lmgtfy: [
+  google: [
     'google',
-    'search',
-    'lmgtfy',
-    'find',
-    'search the internet for',
-    'scour the interwebs for',
-    'did you try to google'
+    'Google'
   ]
 };
