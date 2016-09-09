@@ -17,10 +17,6 @@ module.exports = {
     'be a good bot and parrot benf fodjsi bdfsjdhf bazz back to me',
     'copy cat behf sdkjhfg peiurf fdlkgj kwjhe foufg'
   ],
-  rps: [
-    'rps',
-    'rps'
-  ],
   google: [
     'google',
     'Google'
