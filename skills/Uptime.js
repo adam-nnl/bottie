@@ -1,4 +1,5 @@
-var os = require('os');
+module.exports = function(skill, info, bot, message) {
+    var os = require('os');
 
     var hostname = os.hostname();
     var uptime = formatUptime(process.uptime());
