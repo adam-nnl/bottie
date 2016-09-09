@@ -20,9 +20,5 @@ module.exports = {
   google: [
     'google',
     'Google'
-  ],
-  rps: [
-    'rps',
-    'RPS'
   ]
 };
