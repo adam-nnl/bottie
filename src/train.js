@@ -13,14 +13,14 @@ function Train(Brain, speech, message) {
   var phraseName;
   speech.startConversation(message, function(err, convo) {
       convo.ask('Sure, what do you want to call this skill? ' +
-        'This is the machine name, so pick a good name for a file basename.', [
+        'This will also be the file name for the code module.', [
           {
             pattern: '.*',
             callback: function(response, convo) {
               phraseName = response.text;
               convo.say('Right, I\'ll call it `' + phraseName + '`.');
               convo.say('Okay, now give me a bunch of ways you might say this. ' +
-                'When you\'re done, just sent me the word done all by itself on a line.');
+                'When you\'re done, just sent me the word \'done\' all by itself on a line.');
               convo.ask('How might you say this?', [
                 {
                   pattern: '.*',
@@ -49,7 +49,7 @@ function Train(Brain, speech, message) {
                 return convo.say('Shoot, something went wrong while I was trying ' +
                   'to add that to my brain:\n```\n' + JSON.stringify(err) + '\n```');
               }
-              convo.say('All done! You should try seeing if I understood now!');
+              convo.say('All done! You should try it our to see if I understood now!');
             });
             convo.next();
           }
