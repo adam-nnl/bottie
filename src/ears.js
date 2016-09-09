@@ -30,3 +30,5 @@ Ears.prototype.hear = function(pattern, callback) {
   Bot.hears(pattern, this.scopes, callback);
   return this;
 };
+
+
