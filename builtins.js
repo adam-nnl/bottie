@@ -20,5 +20,10 @@ module.exports = {
   google: [
     'google',
     'Google'
+  ],
+  Uptime: [
+    'uptime',
+    'are you alive?',
+    'are you up'
   ]
 };
