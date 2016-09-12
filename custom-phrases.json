@@ -11,5 +11,15 @@
     "tell me something about cats",
     "cat fact meow",
     "meow meow"
+  ],
+  "google": [
+    "google",
+    "Google"
+  ],
+  "commands": [
+    "show me commands",
+    "show help",
+    "commands",
+    "help"
   ]
 }
