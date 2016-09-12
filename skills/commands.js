@@ -15,7 +15,7 @@ try {
   throw new Error('Uh oh, custom-phrases.json was ' +
     'not valid JSON! Fix it, please? :)');
     
-    bot.reply(message,'These are all my currently supported skills: ');
+    bot.reply(message,'These are all my currently supported commands: ');
     Object.keys(builtinPhrases).forEach(function(key) {
     bot.reply(message, builtinPhrases[key]);
     //callback(key, builtinPhrases[key]);
