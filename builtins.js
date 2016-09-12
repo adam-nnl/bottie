@@ -21,11 +21,6 @@ module.exports = {
     'help',
     'commands'
   ],
-  help: [
-    'help',
-    'Help',
-    'halp'
-  ],
   Uptime: [
     'uptime',
     'are you alive?',
