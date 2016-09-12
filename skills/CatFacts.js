@@ -11,7 +11,7 @@ request({
 
     if (!error && response.statusCode === 200) {
         //console.log(body) // Print the json response
-        bot.reply(message,JSON.stringify(body));
+        bot.reply(message,body.facts[0]+ ':smile_cat:');
     }
 })
 
