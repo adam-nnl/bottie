@@ -29,5 +29,9 @@ module.exports = {
     'are you up',
     'who are you',
     'what are you'    
+  ],
+  BotHelp: [
+  'help me',
+  'what do you do?'
   ]
 };
