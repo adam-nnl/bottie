@@ -21,6 +21,11 @@ module.exports = {
     'google',
     'Google'
   ],
+  help: [
+    'help',
+    'Help',
+    'halp'
+  ],
   Uptime: [
     'uptime',
     'are you alive?',
